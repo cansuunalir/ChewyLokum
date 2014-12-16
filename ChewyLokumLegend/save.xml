@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <game>
+<player>
+<id>1</id>
+<name>Arda</name>
+</player>
+ <board>
+ <lokums>
+ <lokum>
+ <color>Green </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Pistachio</type>
+ </lokum>
+ </lokums>
+ <obstacles>
+ <obstacle>
+ <color> </color>
+ <position>
+  <xcoord></xcoord>
+  <ycoord></ycoord>
+ </position>
+ </obstacle>
+ </obstacles>
+ </board>
+ <goalscore>null</goalscore>
+ <currentscore>0</currentscore>
+ <movesleft>null</movesleft>
+ <level>null </level>
+</game>

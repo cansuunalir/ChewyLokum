@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <game>
+<player>
+<id>1</id>
+<name>Arda</name>
+</player>
+ <board>
+ <lokums>
+ <lokum>
+ <color>White </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>White </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>White </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>White </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>White </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>0</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Rose</type>
+ <color>White </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Red </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Green </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>1</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>White </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Rose</type>
+ <color>White </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>2</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Red </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Red </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>3</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Green </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>White </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>White </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>4</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Green </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Green </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>5</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>6</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Rose</type>
+ <color>White </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Coconut</type>
+ <color>Red </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Green </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Hazelnut</type>
+ <color>Green </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>7</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Green </color>
+ <position>
+  <xcoord>0</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>1</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Green </color>
+ <position>
+  <xcoord>2</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Red </color>
+ <position>
+  <xcoord>3</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Rose</type>
+ <color>Green </color>
+ <position>
+  <xcoord>4</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Pistachio</type>
+ <color>Brown </color>
+ <position>
+  <xcoord>5</xcoord>
+  <ycoord>8</ycoord>
+ </position>
+<type>Hazelnut</type>
+ </lokum>
+ </lokums>
+ <obstacles>
+ <obstacle>
+ <color> </color>
+ <position>
+  <xcoord></xcoord>
+  <ycoord></ycoord>
+ </position>
+ </obstacle>
+ </obstacles>
+ </board>
+ <goalscore>null</goalscore>
+ <currentscore>0</currentscore>
+ <movesleft>null</movesleft>
+ <level>null </level>
+</game>
