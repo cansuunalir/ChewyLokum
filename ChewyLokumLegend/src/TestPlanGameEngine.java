@@ -60,4 +60,36 @@ public class TestPlanGameEngine {
 		System.out.println(ge.getBoard().toString());
 		
 	}
+	
+	//Test for "fillEmptySpaces()" having an empty row
+	public static void testFive(){
+		setUp();
+		ge.populateBoard();
+		//Board is created and populated.
+		Crush c = new Crush();
+		c.crushHorizontal(ge.getBoard(), 5);
+		//A row is converted to emptyObjects.
+		System.out.println(ge.getBoard().toString());
+		
+		ge.fillEmptySpaces();
+		//After calling this method empty spaces should fill with lokums.
+		System.out.println(ge.getBoard().toString());
+		
+	}
+	
+	//Test for "fillEmptySpaces()" after having empty spaces due to "crushColor(Board,int)"
+	public static void testSix(){
+		setUp();
+		ge.populateBoard();
+		//Board is created and populated.
+		Crush c = new Crush();
+		c.crushColor(ge.getBoard(), 3);
+		//The GreenPistachioLokums are converted to emptyObjects.
+		System.out.println(ge.getBoard().toString());
+		//There shouldn't be any lokums left with the value 3 on the board.
+		ge.fillEmptySpaces();
+		//After calling this method empty spaces should fill with lokums.
+		System.out.println(ge.getBoard().toString());
+		
+	}
 }
