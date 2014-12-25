@@ -35,7 +35,7 @@ public class Board {
 		String result = "";
 		for(int i=0; i<board.length; i++){
 			for(int j=0; j<board[0].length; j++){
-				result = result + " " + Integer.toString(board[i][j].getType());
+				result = result + " " + Integer.toString(board[i][j].getColor());
 			}
 			result = result + "\n";
 		}

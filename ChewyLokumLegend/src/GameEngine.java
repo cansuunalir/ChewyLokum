@@ -57,17 +57,17 @@ public class GameEngine {
 	public GameEngine(){
 		this.board = new Board(9,6);
 		populateBoard();
-		while(vg.checkVerticalGroup(board).size() !=0 || hg.checkHorizontalGroup(board).size() !=0){
-			if(hg.checkHorizontalGroup(board).size() !=0){
-			a();
-			fillEmptySpaces();
-			}
-			if(vg.checkVerticalGroup(board).size() !=0){
-			b();
-			fillEmptySpaces();
-			}
-			score = 0;
-		}
+//		while(vg.checkVerticalGroup(board).size() !=0 || hg.checkHorizontalGroup(board).size() !=0){
+//			if(hg.checkHorizontalGroup(board).size() !=0){
+//			a();
+//			fillEmptySpaces();
+//			}
+//			if(vg.checkVerticalGroup(board).size() !=0){
+//			b();
+//			fillEmptySpaces();
+//			}
+//			score = 0;
+//		}
 	}
 	
 	

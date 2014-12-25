@@ -17,7 +17,7 @@ public class TestPlanGameEngine {
 		ge.populateBoard();
 		//populates board with random regular lokums.
 		System.out.println(ge.getBoard().toString());
-		//It should print all 1's because type of the BoardObject is printed.
+		
 	}
 	
 	//Test for "generateLokum()".
@@ -35,13 +35,29 @@ public class TestPlanGameEngine {
 		ge.populateBoard();
 		//Board is created and populated.
 		ge.getBoard().getBoardObjects()[5][5] = new EmptyObject(5,5);
-		ge.getBoard().getBoardObjects()[6][6] = new EmptyObject(6,6);
+		ge.getBoard().getBoardObjects()[4][4] = new EmptyObject(4,4);
 		//Two lokums are converted to EmptyObjects.
 		System.out.println(ge.getBoard().toString());
-		//It should print all 1's except two 4's because there are two EmptyObjects in the board.
+		
 		ge.fillEmptySpaces();
 		//After calling this method empty spaces should fill with lokums.
 		System.out.println(ge.getBoard().toString());
-		//It should print all 1's because type of the BoardObject is printed.
+		
+	}
+	
+	//Test for "fillEmptySpaces()" having an empty column
+	public static void testFour(){
+		setUp();
+		ge.populateBoard();
+		//Board is created and populated.
+		Crush c = new Crush();
+		c.crushVertical(ge.getBoard(), 3);
+		//A column is converted to emptyObjects.
+		System.out.println(ge.getBoard().toString());
+		
+		ge.fillEmptySpaces();
+		//After calling this method empty spaces should fill with lokums.
+		System.out.println(ge.getBoard().toString());
+		
 	}
 }
