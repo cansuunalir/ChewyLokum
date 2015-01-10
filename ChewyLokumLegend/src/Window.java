@@ -63,6 +63,8 @@ public class Window extends JPanel implements MouseListener{
 	protected JButton saveButton;
 	public static int[] mousechecker = new int[4];
 	
+	public Integer time;
+	
 	public Window(){
 		super();
 		setVisible(true);
@@ -158,7 +160,7 @@ public class Window extends JPanel implements MouseListener{
 	drawBoard(g);
 	}
 	
-public void drawBoard(Graphics g){
+	public void drawBoard(Graphics g){
 		
 	
 	
@@ -315,5 +317,20 @@ public void drawBoard(Graphics g){
 	@Override
 	public void mouseReleased(MouseEvent e) {
 
+	}
+	
+	public void countback(){
+		while(true){
+			if(time>0){
+				time--;
+				try {
+					Thread.sleep(100);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}	
+		}
+		
+		
 	}
 }
